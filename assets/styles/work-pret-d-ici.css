@@ -1,0 +1,150 @@
+.work-title {
+	font-size: 3em;
+	line-height: 1.5;
+}
+
+.section-work {
+	height: inherit;
+}
+
+.section-work-1-txt {
+	width: 100%;
+}
+
+.work-img {
+	height: 300px;
+	background-image: url("/assets/img/pret-d-ici/image-1.png");
+	background-position: center;
+	width: 100%;
+}
+
+.big-img img {
+	width: 100%;
+}
+
+.center-img {
+	display: flex;
+	justify-content: center;
+}
+
+.wireframes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.wireframe-img {
+	width: 200px;
+}
+
+.wireframe-img img {
+	width: 100%;
+}
+
+.section-double-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 7rem;
+}
+
+.section-6-img img {
+	width: 100%;
+}
+
+.content-2-img {
+	display: flex;
+}
+
+.img-block img,
+.content-work-img-desktop img,
+.content-work-img-mobile img {
+	width: 100%;
+}
+
+.content-work-img-mobile {
+	display: none;
+}
+
+.block-ui-title {
+	display: flex;
+	align-items: center;
+}
+.ui-number {
+	background: var(--bleu);
+	width: 45px;
+	height: 45px;
+	color: var(--white);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+}
+
+.ui-number p {
+	font-family: "Inter", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.ui-title {
+	font-size: 1.75rem;
+	font-weight: 600;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 1000px) {
+	.section-work {
+		height: 500px;
+	}
+	.section-work-1-txt {
+		width: 50%;
+	}
+	.work-img {
+		display: none;
+	}
+	.section-work {
+		background-image: url("/assets/img/pret-d-ici/image-1.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+}
+
+@media screen and (max-width: 1148px) {
+	.wireframes {
+		flex-wrap: nowrap;
+		overflow: hidden;
+		width: auto;
+		overflow-x: scroll;
+		padding: 1rem;
+	}
+
+	.wireframes::-webkit-scrollbar {
+		display: none;
+	}
+	.wireframe-img img {
+		width: 200px;
+	}
+}
+/* Mobile */
+@media screen and (max-width: 768px) {
+	.center-img img {
+		width: 80%;
+	}
+	.content-2-img {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.content-work-img-mobile {
+		display: block;
+	}
+	.content-work-img-desktop {
+		display: none;
+	}
+
+	.content-work-img-mobile,
+	.img-block {
+		margin: 0 50px;
+	}
+}
