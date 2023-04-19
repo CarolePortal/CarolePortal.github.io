@@ -338,6 +338,11 @@ nav {
 	justify-content: center;
 }
 
+#goTop.is-visible img {
+	width: 18px;
+	height: 29px;
+}
+
 /* Fin - Back to top */
 
 /* RESPONSIVE */
