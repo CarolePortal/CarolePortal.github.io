@@ -1,0 +1,65 @@
+label,
+input,
+textarea {
+	font-family: "Inter", sans-serif;
+	font-size: 1rem;
+}
+
+textarea {
+	resize: none;
+}
+
+label {
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+form .label-input {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.5rem;
+}
+
+form .label-input input,
+form .label-input textarea {
+	border-radius: 10px;
+	padding: 0.75rem 1rem;
+	border: 1px solid var(--grey-extra-light);
+}
+
+form .label-input input:focus,
+form .label-input textarea:focus {
+	border: 1px solid var(--bleu);
+	background: var(--purple-light);
+}
+
+form p {
+	color: var(--text-light);
+}
+
+form button {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	background: var(--bleu);
+	color: var(--white);
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+form button:hover {
+	background: var(--bleu-sombre);
+}
+
+.mobile-img {
+	display: none;
+}
+
+@media screen and (max-width: 880px) {
+	.mobile-img {
+		display: flex;
+		justify-content: center;
+	}
+	.desktop-img {
+		display: none;
+	}
+}
