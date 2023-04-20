@@ -1,78 +1,192 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carole Portal | UX UI Designer</title>
+		<link rel="stylesheet" href="./assets/styles/style.css" />
 		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="shortcut icon"
+			href="./assets/img/favicon.svg"
+			type="image/x-icon"
 		/>
-		<title>Contact me</title>
 	</head>
-
 	<body>
-		<form
-    class="container"
-			method="post"
-			action="https://forms.un-static.com/forms/d4bd1b68166532771a3bbd03712b27c7220f8b57"
-		>
-    <form class="section-1">
-
-    
-			<div class="form-group row">
-				<label for="name" class="col-4 col-form-label">Name</label>
-				<div class="col-8">
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-user"></i>
-						</div>
-						<input
-							id="name"
-							name="name"
-							placeholder="Please enter your name"
-							type="text"
-							required="required"
-							class="form-control"
-						/>
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container">
+				<div class="content">
+					<div class="logo">
+						<a href="/index.html">
+							<img src="/assets/img/Logo_PORTAL.svg" alt="Logo Carole Portal" />
+						</a>
+					</div>
+					<div id="Link" class="navLink">
+						<ul>
+							<li class="">
+								<a class="navBtn" href="/index.html">Accueil</a>
+							</li>
+							<li class="">
+								<a class="navBtn" href="#">Qui-suis-je ?</a>
+							</li>
+							<li class="">
+								<a class="navBtn" href="/realisations.html">Mes réalisations</a>
+							</li>
+							<li class="contact">
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/carole-portal-0603b5bb/"
+									target="_blank"
+								>
+									<img src="./assets/img/linkedin.svg" alt="Logo Linkedin" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="BurgerMenu" class="navLinkMobile">
+						<span></span>
+						<span></span>
+						<span></span>
 					</div>
 				</div>
 			</div>
-			<div class="form-group row">
-				<label for="email" class="col-4 col-form-label">E-mail address</label>
-				<div class="col-8">
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-envelope"></i>
+		</nav>
+		<main>
+			<section class="container p-b-2">
+				<div class="section-1 flex">
+					<div class="section-1-txt">
+						<h2>Me contacter</h2>
+						<div class="separateur"></div>
+						<p class="m-b-2">
+							Besoin d’un UX designer dans votre équipe ? Contactez-moi, afin
+							que l’on échange ensemble sur votre projet. à très bientôt !
+						</p>
+						<div class="m-t-2 desktop-img">
+							<img
+								src="/assets/img/image-contact.png"
+								alt="image de prise de contact"
+							/>
 						</div>
-						<input
-							id="email"
-							name="email"
-							placeholder="Your e-mail address"
-							type="text"
-							required="required"
-							class="form-control"
+					</div>
+					<div class="section-1-txt">
+						<form
+							method="post"
+							action="https://forms.un-static.com/forms/d4bd1b68166532771a3bbd03712b27c7220f8b57"
+						>
+							<div class="label-input">
+								<label for="nom">Nom *</label>
+								<input type="text" id="nom" placeholder="Nom" required />
+							</div>
+							<div class="label-input">
+								<label for="prenom">Prénom *</label>
+								<input type="text" id="prenom" placeholder="Prénom" required />
+							</div>
+							<div class="label-input">
+								<label for="email">Email *</label>
+								<input type="email" id="email" placeholder="Email" required />
+							</div>
+							<div class="label-input">
+								<label for="telephone">Téléphone *</label>
+								<input
+									type="text"
+									id="telephone"
+									placeholder="Téléphone"
+									required
+								/>
+							</div>
+							<div class="label-input">
+								<label for="message">Message *</label>
+								<textarea
+									type="text"
+									id="telephone"
+									placeholder="Téléphone"
+									rows="5"
+									required
+								></textarea>
+							</div>
+							<p>*champs obligatoires</p>
+							<div class="m-t-2">
+								<button name="submit" type="submit">Envoyer</button>
+							</div>
+						</form>
+						<div class="m-t-4 mobile-img">
+							<img
+								src="/assets/img/image-contact.png"
+								alt="image de prise de contact"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="section-1 flex-footer">
+					<div class="title-footer">
+						<h2>Carole PORTAL</h2>
+						<span class="pipe">|</span>
+						<h2>UX UI designer</h2>
+					</div>
+					<div class="logo-footer">
+						<img
+							src="/assets/img/Logo_white_PORTAL.svg"
+							alt="logo Carole Portal en blanc"
 						/>
 					</div>
 				</div>
-			</div>
-			<div class="form-group row">
-				<label for="message" class="col-4 col-form-label">Message</label>
-				<div class="col-8">
-					<textarea
-						id="message"
-						name="message"
-						cols="40"
-						rows="10"
-						required="required"
-						class="form-control"
-					></textarea>
+				<div class="section-1 content-link-contact">
+					<div class="content-link">
+						<ul>
+							<li><a href="#">Accueil</a></li>
+							<li><a href="#">Qui-suis-je</a></li>
+							<li><a href="/realisations.html">Réalisations</a></li>
+							<li><a href="/contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="content-contact">
+						<ul>
+							<li>
+								<a href="#">
+									<img
+										src="/assets/img/location-dot.svg"
+										alt="Picto localisation"
+									/>
+									La Garenne-Colombes</a
+								>
+							</li>
+							<li>
+								<a href="mailto:portalcarol@gmail.com" target="_blank"
+									><img src="/assets/img/envelope.svg" alt="Picto enveloppe" />
+									Contactez-moi</a
+								>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/carole-portal-0603b5bb/"
+									target="_blank"
+								>
+									<img
+										src="/assets/img/linkedin_white.svg"
+										alt="Picto Linkedin"
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<div class="copyright">
+					<p>
+						© <span id="copy"></span> - Carole Portal - Tous droits réservés
+					</p>
 				</div>
 			</div>
-			<div class="form-group row">
-				<div class="offset-4 col-8">
-					<button name="submit" type="submit" class="btn btn-primary">
-						Send
-					</button>
-				</div>
-			</div>
-    </div>
-    </form>
+		</footer>
+		<button id="goTop">
+			<img src="/assets/img/caret-up.svg" alt="Flêche vers le haut" />
+		</button>
+		<script src="/assets/js/script.js"></script>
 	</body>
 </html>
