@@ -1,0 +1,29 @@
+.grey {
+	background: var(--grey);
+}
+
+.section-1-img-designer {
+	display: flex;
+	justify-content: center;
+}
+
+.section-1-img-designer img {
+	width: 300px;
+}
+
+.mobile-visible {
+	display: none;
+}
+
+.desktop-visible {
+	display: flex;
+}
+
+@media screen and (max-width: 880px) {
+	.mobile-visible {
+		display: flex;
+	}
+	.desktop-visible {
+		display: none;
+	}
+}

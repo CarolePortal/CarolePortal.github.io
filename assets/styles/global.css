@@ -88,8 +88,13 @@ button {
 	margin: 0 auto;
 }
 
-.flex {
+.flex,
+.flex-order {
 	display: flex;
+}
+
+.align-center {
+	align-items: center;
 }
 
 .separateur,
@@ -356,6 +361,18 @@ nav {
 }
 /* 768px */
 @media screen and (max-width: 768px) {
+	.flex-order {
+		flex-direction: column;
+	}
+
+	.order-1 {
+		order: 1;
+	}
+
+	.order-2 {
+		order: 2;
+	}
+
 	button {
 		width: 100%;
 	}
