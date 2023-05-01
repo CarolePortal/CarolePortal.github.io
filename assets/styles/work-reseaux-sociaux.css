@@ -1,0 +1,12 @@
+.reseaux-img {
+	max-width: 325px;
+	margin-bottom: 2rem;
+}
+
+.reseaux-img img {
+	width: 100%;
+}
+
+.reseaux-img p {
+	margin-top: 1rem;
+}

@@ -93,8 +93,16 @@ button {
 	display: flex;
 }
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
 .align-center {
 	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
 }
 
 .separateur,
@@ -113,6 +121,10 @@ button {
 p {
 	line-height: 1.6;
 	font-weight: 400;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .bg-grey {
@@ -169,6 +181,21 @@ p {
 	padding-bottom: 4rem;
 }
 
+.gap-1 {
+	gap: 1rem !important;
+}
+.gap-2 {
+	gap: 2rem !important;
+}
+.gap-3 {
+	gap: 3rem !important;
+}
+.gap-4 {
+	gap: 4rem !important;
+}
+.gap-5 {
+	gap: 5rem !important;
+}
 /* Navigation */
 nav {
 	background: var(--white);
