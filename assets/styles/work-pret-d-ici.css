@@ -68,11 +68,10 @@
 
 .block-ui-title {
 	display: flex;
-	align-items: center;
 }
 .ui-number {
 	background: var(--bleu);
-	width: 45px;
+	min-width: 45px;
 	height: 45px;
 	color: var(--white);
 	border-radius: 10px;
@@ -91,6 +90,7 @@
 .ui-title {
 	font-size: 1.75rem;
 	font-weight: 600;
+	margin-top: 0.5rem;
 }
 /* MEDIA QUERIES */
 @media screen and (min-width: 1000px) {

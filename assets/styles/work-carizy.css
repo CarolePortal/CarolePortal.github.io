@@ -1,0 +1,66 @@
+.work-competences .flex {
+	gap: 4rem;
+}
+
+.work-ul > p {
+	color: var(--bleu);
+}
+
+.work-ul li {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.work-ul li::before {
+	content: "";
+	display: inline-block;
+	height: 22px;
+	min-width: 30px;
+	max-width: 31px;
+	background-image: url("/assets/img/carizy/check-icon.svg");
+	background-repeat: no-repeat;
+	margin-top: 2px;
+}
+
+.flex-2-img {
+	display: flex;
+	gap: 2rem;
+}
+
+.flex-2-img img {
+	width: 100%;
+}
+
+.img-txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.visible-desktop {
+	display: flex;
+}
+.visible-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.work-competences {
+		text-align: center;
+	}
+
+	.work-competences .flex {
+		display: flex;
+		justify-content: center;
+	}
+	.flex-2-img {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.visible-desktop {
+		display: none;
+	}
+	.visible-mobile {
+		display: flex;
+	}
+}
