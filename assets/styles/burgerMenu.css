@@ -10,7 +10,7 @@
 	background: var(--white);
 	border-radius: 10px;
 	height: 3px;
-	margin: 3px 0;
+	margin: 2px;
 	transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .navLinkMobile span:nth-of-type(2) {
-	width: 100%;
+	width: 90%;
 }
 
 .navLinkMobile span:nth-of-type(3) {
@@ -28,18 +28,18 @@
 
 .navLinkMobile.open span:nth-of-type(1) {
 	transform-origin: bottom;
-	transform: rotatez(45deg) translate(3px, 2px);
+	transform: rotatez(45deg) translate(2px, 2px);
 }
 
 .navLinkMobile.open span:nth-of-type(2) {
 	transform-origin: top;
-	transform: rotatez(-45deg) translate(-1px, 0px);
+	transform: rotatez(-45deg) translate(-2px, -1px);
 }
 
 .navLinkMobile.open span:nth-of-type(3) {
 	transform-origin: bottom;
 	width: 50%;
-	transform: translate(12px, -4px) rotatez(45deg);
+	transform: translate(9px, -3px) rotatez(45deg);
 }
 
 .navLinkMobile {
