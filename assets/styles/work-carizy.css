@@ -39,6 +39,7 @@
 
 .visible-desktop {
 	display: flex;
+	flex-direction: column;
 }
 .visible-mobile {
 	display: none;
@@ -62,5 +63,6 @@
 	}
 	.visible-mobile {
 		display: flex;
+		flex-direction: column;
 	}
 }
