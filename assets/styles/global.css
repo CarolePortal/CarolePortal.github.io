@@ -359,6 +359,9 @@ nav {
 /* Fin - Footer */
 
 /* Back to top */
+button.scrollToTopBtn {
+	-webkit-appearance: none;
+}
 .scrollToTopBtn {
 	background-color: var(--purple-light);
 	border: none;
@@ -387,8 +390,6 @@ nav {
 .showBtn {
 	opacity: 1;
 	transform: translateY(0);
-	width: 50px;
-	height: 40px;
 }
 
 /* Fin - Back to top */
