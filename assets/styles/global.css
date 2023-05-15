@@ -359,33 +359,6 @@ nav {
 /* Fin - Footer */
 
 /* Back to top */
-/*
-.scrollToTopBtn {
-	position: fixed;
-	z-index: 999;
-	right: 16px;
-	bottom: 16px;
-	transform: translateY(-50%);
-	padding: 16px;
-	color: #fff;
-	background: var(--purple-light);
-	border: none;
-	display: none;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-}
-.scrollToTopBtn.is-visible {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.scrollToTopBtn.is-visible img {
-	width: 18px;
-	height: 29px;
-}
-*/
 .scrollToTopBtn {
 	background-color: var(--purple-light);
 	border: none;
@@ -409,12 +382,14 @@ nav {
 
 .scrollToTopBtn img {
 	width: 25px;
-	height: 40px;
+	height: 38px;
 }
 
 .showBtn {
 	opacity: 1;
 	transform: translateY(0);
+	width: 50px;
+	height: 40px;
 }
 
 /* Fin - Back to top */
